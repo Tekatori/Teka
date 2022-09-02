@@ -1,0 +1,61 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link href="~/Content/Login.css" rel="stylesheet" />
+</head>
+<body>
+     <div class="login">
+         <div class="form-box">
+             <div class="btn-box">
+                 <div id="btn"></div>
+                 <button type="button" class="toggle-btn" onclick="login()">Đăng Nhập</button>
+                 <button type="button" class="toggle-btn" onclick="dangky()">Đăng Ký </button>
+             </div>
+              <div class="icon">
+             <img src="~/Content/login-reg-img/fb.png" />
+             <img src="~/Content/login-reg-img/gp.png" />
+             <img src="~/Content/login-reg-img/tw.png" />
+            </div>
+           
+             <form method="POST" action="/Main/addsp" id="login" enctype="multipart/form-data" class="input1">
+                 <input type="text" class="txtin" placeholder="Tên Đăng Nhập" name="tenDN" required/>
+                 <input type="password" class="txtin" placeholder="Password" name="pass" required/>
+                 <input type="checkbox" class="ckbox" /><span>Nhớ mật khẩu</span>
+                 <button type="submit" class="btn-submit">Đăng Nhập</button>
+             </form >
+               <form method="post" action="/Main/XuLyDangKy" class="input1" id="dk">
+                 <input type="text" class="txtin" placeholder="Tên Đăng Nhập" name="txtdn" required/>
+                 <input type="tel" class="txtin" placeholder="Phone" name="txtPhone" required/>
+                 <input type="password" class="txtin" placeholder="Password"  name="txtPass" required/>
+                 <input type="checkbox" class="ckbox" name="CB1" value="1" /><span>Tôi đồng ý với các điều khoản</span>
+                 <button type="submit" class="btn-submit">Đăng ký</button>
+             </form>
+             
+         </div>    
+     </div>
+ 
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("dk");
+        var z = document.getElementById("btn");
+        function dangky(){
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+        function login() {
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0px";
+        }
+    </script>
+
+</body>
+</html>

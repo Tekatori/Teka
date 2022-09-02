@@ -1,0 +1,79 @@
+﻿@{
+    ViewBag.Title = "MuaHang";
+    Layout = "~/Views/Shared/MasterHome.cshtml";
+    var khach = ViewBag.kh as KhachHang;
+}
+
+@using BanDoDienMay_Nhom11.Models;
+@model GioHang
+<div class="container" style="text-align:center">
+<form action="/Main/XLMuaHang" method="post">
+    <h2 class="title">Thông tin đặt hàng</h2>
+    <table style="display:inline;" class="text-left">
+        <tr>
+            <td>Mã Khách Hàng : @khach.MaKH</td>
+            <td>Họ và tên : @khach.TenKH</td>
+        </tr>
+         <tr>
+            <td >Số Điện Thoại : @khach.SDT</td>
+            <td >Địa Chỉ :<input type="text" name="diachigiao" /> </td>
+        </tr>
+        <tr>
+            <td>Ngày đặt: @DateTime.Now.ToShortDateString() &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>Ngày Giao:<input type="date" name="ngaygiao" /></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="text-align">
+                <h5 class="title"> Thông Tin Đơn Hàng</h5>
+                <table class="table">
+                    <tr>
+                        <td>Mã Sách</td>
+                        <td>Tên Sách</td>
+                        <td>Ảnh</td>
+                        <td>Số Lượng</td>
+                        <td>Đơn Giá</td>
+                        <td>Thành Tiền</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    @foreach (CartItem item in Model.ds)
+                    {
+                        if (item.iSoLuong > 0)
+                        {
+                        <tr>
+                            <td>@item.iMaSP</td>
+                            <td>@item.sTenSP</td>
+                            <td>
+                                <img src="~/Content/HinhAnh_SP/HinhAnh_SP/@item.sAnh" width="120" height="80" /></td>
+                            <td>@item.iSoLuong</td>
+                            <td>@string.Format("{0:#,### VNĐ}", @item.dDonGia)</td>
+                            <td>@string.Format("{0:#,### VNĐ}", @item.ThanhTien)</td>
+                        </tr> 
+                        }
+                         }
+                    <tr>
+                        <th>Tổng:</th>
+                        <td></td>
+                        <td></td>
+                        <th>@Model.TongSLHang()</th>
+                        <td></td>
+                        <th>@string.Format("{0:#,### VNĐ}", Model.TongThanhTien())</th>
+                    </tr>
+                </table>
+           </td>
+        </tr>
+        <tr>
+            <td>
+
+            </td>
+            <td><input type="submit" class="btn btn-secondary"  value="Đồng ý đặt Hàng"/></td>
+
+        </tr>
+    </table>
+</form>
+    </div>

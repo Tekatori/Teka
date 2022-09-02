@@ -1,0 +1,77 @@
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\QuanLyPhongNet.DTO.dll.config
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\QuanLyPhongNet.DTO.dll
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\QuanLyPhongNet.DTO.pdb
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.dll
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.SqlServer.dll
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.xml
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.SqlServer.xml
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.csprojResolveAssemblyReference.cache
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.dll
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.pdb
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\QuanLyPhongNet.DTO.dll.config
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\QuanLyPhongNet.DTO.dll
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\QuanLyPhongNet.DTO.pdb
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.dll
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.xml
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.dll
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.pdb
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\QuanLyPhongNet.DTO.dll.config
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\QuanLyPhongNet.DTO.dll
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\QuanLyPhongNet.DTO.pdb
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.dll
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.xml
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.dll
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.pdb
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\QuanLyPhongNet.DTO.dll.config
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\QuanLyPhongNet.DTO.dll
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\QuanLyPhongNet.DTO.pdb
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.dll
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.xml
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.csproj.AssemblyReference.cache
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.csproj.CoreCompileInputs.cache
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.csproj.CopyComplete
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.dll
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.pdb
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\QuanLyPhongNet.DTO.dll.config
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\QuanLyPhongNet.DTO.dll
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\QuanLyPhongNet.DTO.pdb
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.dll
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.xml
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.csproj.AssemblyReference.cache
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.csproj.CoreCompileInputs.cache
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.csproj.CopyComplete
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.dll
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.pdb
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\QuanLyPhongNet.DTO.dll.config
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\QuanLyPhongNet.DTO.dll
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\QuanLyPhongNet.DTO.pdb
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.dll
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.xml
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.csproj.AssemblyReference.cache
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.csproj.CoreCompileInputs.cache
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.csproj.CopyComplete
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.dll
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.pdb
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\QuanLyPhongNet.DTO.dll.config
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\QuanLyPhongNet.DTO.dll
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\QuanLyPhongNet.DTO.pdb
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.dll
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.xml
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.csproj.AssemblyReference.cache
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.csproj.CoreCompileInputs.cache
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.csproj.CopyComplete
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.dll
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet.DTO\obj\Debug\QuanLyPhongNet.DTO.pdb

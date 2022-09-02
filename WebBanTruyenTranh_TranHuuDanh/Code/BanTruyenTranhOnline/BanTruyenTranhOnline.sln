@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BanTruyenTranhOnline", "BanDoDienMay_Nhom11\BanTruyenTranhOnline.csproj", "{60F2B79F-8580-4BFF-B764-43A4CB919A7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodedUITest_BanTruyen", "CodedUITest_BanTruyen\CodedUITest_BanTruyen.csproj", "{F42EB53E-BA89-46DF-B34F-028B6017179B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60F2B79F-8580-4BFF-B764-43A4CB919A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F2B79F-8580-4BFF-B764-43A4CB919A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F2B79F-8580-4BFF-B764-43A4CB919A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F2B79F-8580-4BFF-B764-43A4CB919A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F42EB53E-BA89-46DF-B34F-028B6017179B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42EB53E-BA89-46DF-B34F-028B6017179B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42EB53E-BA89-46DF-B34F-028B6017179B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42EB53E-BA89-46DF-B34F-028B6017179B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB5CD0BC-168E-4A40-8A8E-D7BFF8467C05}
+	EndGlobalSection
+EndGlobal

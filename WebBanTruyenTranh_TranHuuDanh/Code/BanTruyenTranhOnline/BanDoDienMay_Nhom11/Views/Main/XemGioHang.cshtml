@@ -1,0 +1,60 @@
+﻿@{
+    ViewBag.Title = "XemGioHang";
+    Layout = "~/Views/Shared/MasterHome.cshtml";
+}
+
+@using BanDoDienMay_Nhom11.Models;
+@model GioHang
+<h2 class="title">Thông Tin Giỏ Hàng Đã Chọn</h2>
+@if (Model == null || Model.SoMatHang() == 0)
+{
+     <p class="title">Giỏ Hàng Rỗng</p>
+}
+else
+{
+<table class="table">
+    <tr>
+        <td>Mã Sách</td>
+        <td>Tên Sách</td>
+        <td>Ảnh</td>
+        <td>Số Lượng</td>
+        <td>Đơn Giá</td>
+        <td>Thành Tiền</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    @foreach (CartItem item in Model.ds)
+    {
+        if(item.iSoLuong >0)
+        {
+        <tr>
+            <td>@item.iMaSP</td>
+             <td>@item.sTenSP</td>
+             <td><img src="~/Content/HinhAnh_SP/HinhAnh_SP/@item.sAnh" width="120" height="80" /></td>
+            <td>@item.iSoLuong</td>
+             <td>@string.Format("{0:#,### VNĐ}", @item.dDonGia)</td>
+             <td>@string.Format("{0:#,### VNĐ}", @item.ThanhTien)</td>
+
+            
+            <td> <a href="/Main/CTSP/@item.iMaSP">Chi Tiết</a> </td>
+             <td><a href="/Main/AddSL/@item.iMaSP"> Thêm</a></td>
+            <td> <a href="/Main/Xoa/@item.iMaSP"> Xoá</a></td>  
+        </tr> 
+        }
+    }
+    <tr>
+        <th>Tổng</th>
+        <td><a href="/Main/Home" class="btn btn-secondary">Trang Chủ</a></td>
+        <td></td>
+        <th>@Model.TongSLHang()</th>
+        <td></td>
+        <th >@string.Format("{0:#,### VNĐ}", Model.TongThanhTien())</th>
+        <td><a href="/Main/MuaHang" class="btn btn-secondary">Mua Hàng</a></td>
+        <td><a href="/Main/XoaGio" class="btn btn-secondary">Xoá Giỏ</a></td>
+    </tr>
+</table>
+    
+    
+}
+

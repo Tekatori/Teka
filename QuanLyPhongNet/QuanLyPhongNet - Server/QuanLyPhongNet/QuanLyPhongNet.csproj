@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{376726DE-9801-4743-824D-59BB6233CB31}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuanLyPhongNet</RootNamespace>
+    <AssemblyName>QuanLyPhongNet</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddMember.Designer.cs">
+      <DependentUpon>AddMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTimeMemberGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTimeMemberGUI.Designer.cs">
+      <DependentUpon>AddTimeMemberGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CategoryManageGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CategoryManageGUI.Designer.cs">
+      <DependentUpon>CategoryManageGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseConfigurationGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatabaseConfigurationGUI.Designer.cs">
+      <DependentUpon>DatabaseConfigurationGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDuDoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDuDoan.Designer.cs">
+      <DependentUpon>FormDuDoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeGUI.Designer.cs">
+      <DependentUpon>HomeGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadingGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadingGUI.Designer.cs">
+      <DependentUpon>LoadingGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginGUI.Designer.cs">
+      <DependentUpon>LoginGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OptionGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptionGUI.Designer.cs">
+      <DependentUpon>OptionGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderServiceGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderServiceGUI.Designer.cs">
+      <DependentUpon>OrderServiceGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyPhongNetDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyPhongNetDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyPhongNetDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyPhongNetDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGUI.Designer.cs">
+      <DependentUpon>ReportGUI.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddMember.resx">
+      <DependentUpon>AddMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTimeMemberGUI.resx">
+      <DependentUpon>AddTimeMemberGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CategoryManageGUI.resx">
+      <DependentUpon>CategoryManageGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatabaseConfigurationGUI.resx">
+      <DependentUpon>DatabaseConfigurationGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDuDoan.resx">
+      <DependentUpon>FormDuDoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeGUI.resx">
+      <DependentUpon>HomeGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadingGUI.resx">
+      <DependentUpon>LoadingGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginGUI.resx">
+      <DependentUpon>LoginGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionGUI.resx">
+      <DependentUpon>OptionGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderServiceGUI.resx">
+      <DependentUpon>OrderServiceGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGUI.resx">
+      <DependentUpon>ReportGUI.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="QuanLyPhongNetDataSet.xsc">
+      <DependentUpon>QuanLyPhongNetDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyPhongNetDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyPhongNetDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyPhongNetDataSet.xss">
+      <DependentUpon>QuanLyPhongNetDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyPhongNetDataSet1.xsc">
+      <DependentUpon>QuanLyPhongNetDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyPhongNetDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyPhongNetDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyPhongNetDataSet1.xss">
+      <DependentUpon>QuanLyPhongNetDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\wsecedit_dll_05_13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sa_three.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QuanLyPhongNet.Common\QuanLyPhongNet.Common.csproj">
+      <Project>{08446271-8d00-4b34-b5dd-dabaa8e06087}</Project>
+      <Name>QuanLyPhongNet.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QuanLyPhongNet.DAO\QuanLyPhongNet.DAO.csproj">
+      <Project>{f0e16198-7a34-4f56-a16d-b2fc47211f88}</Project>
+      <Name>QuanLyPhongNet.DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QuanLyPhongNet.DTO\QuanLyPhongNet.DTO.csproj">
+      <Project>{5e497f82-d93d-44a6-a6b1-fbb263f1a08a}</Project>
+      <Name>QuanLyPhongNet.DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doimk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dangnhap.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dangnhap1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disc_256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uc_shikamaru-mj_hardware.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nhanvien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doimk1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\systemcpl_dll_01_14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google-sites-icon-large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google-sites-icon-large1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trangchu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vector_285_14-01-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sync.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\View.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1392495957.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-button-png-27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13924959571.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-button-png-271.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-seta1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\app_type_catalog_512px_GREY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fast-food-icon-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\28-5121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20151011833201.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\app_type_catalog_512px_GREY1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\máy tính.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\512_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blog.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\order-icon-21627 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Report\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\987919.jpg" />
+    <None Include="Resources\unknown.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

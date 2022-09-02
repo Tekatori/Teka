@@ -1,0 +1,348 @@
+{
+  "id": "e8c62340-7fe1-45e1-928f-b6201e42a455",
+  "version": "2.0",
+  "name": "TestAdminThemXoaSua",
+  "url": "http://localhost:30084/Main/addsp",
+  "tests": [{
+    "id": "45838216-b118-46c2-8237-d942e1e69467",
+    "name": "TestThem",
+    "commands": [{
+      "id": "86104743-fe8c-40f2-8b60-5f8f5d711787",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:30084/Main/addsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a628356-23db-4ef3-bf98-f65a30799eb4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a5b7334-99e7-4432-bb86-2d3e9a68a390",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Xuống Ngay →",
+      "targets": [
+        ["linkText=Xuống Ngay →", "linkText"],
+        ["css=.col-2 > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Xuống Ngay →')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#chucnang')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Xuống Ngay →')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d605395-447d-4912-917e-d6f3119925fc",
+      "comment": "",
+      "command": "click",
+      "target": "id=MaSP",
+      "targets": [
+        ["id=MaSP", "id"],
+        ["name=MaSP", "name"],
+        ["css=#MaSP", "css:finder"],
+        ["xpath=//input[@id='MaSP']", "xpath:attributes"],
+        ["xpath=//div[@id='them']/form/div/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aeaf3e7e-72e4-48c6-8264-6dd7e54e7ce9",
+      "comment": "",
+      "command": "type",
+      "target": "id=MaSP",
+      "targets": [
+        ["id=MaSP", "id"],
+        ["name=MaSP", "name"],
+        ["css=#MaSP", "css:finder"],
+        ["xpath=//input[@id='MaSP']", "xpath:attributes"],
+        ["xpath=//div[@id='them']/form/div/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "SP030"
+    }, {
+      "id": "2897d4f1-c687-465f-a73c-cc2d2f055294",
+      "comment": "",
+      "command": "click",
+      "target": "id=TenSP",
+      "targets": [
+        ["id=TenSP", "id"],
+        ["name=TenSP", "name"],
+        ["css=#TenSP", "css:finder"],
+        ["xpath=//input[@id='TenSP']", "xpath:attributes"],
+        ["xpath=//div[@id='them']/form/div/fieldset/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12bee454-1789-4b5d-806a-2acb6f759f34",
+      "comment": "",
+      "command": "click",
+      "target": "id=MaSP",
+      "targets": [
+        ["id=MaSP", "id"],
+        ["name=MaSP", "name"],
+        ["css=#MaSP", "css:finder"],
+        ["xpath=//input[@id='MaSP']", "xpath:attributes"],
+        ["xpath=//div[@id='them']/form/div/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "860724a5-066d-49ec-b694-195ef306e768",
+      "comment": "",
+      "command": "type",
+      "target": "id=MaSP",
+      "targets": [
+        ["id=MaSP", "id"],
+        ["name=MaSP", "name"],
+        ["css=#MaSP", "css:finder"],
+        ["xpath=//input[@id='MaSP']", "xpath:attributes"],
+        ["xpath=//div[@id='them']/form/div/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "SP050"
+    }, {
+      "id": "9e12a366-ed9c-4723-91ad-4e3612dfb168",
+      "comment": "",
+      "command": "click",
+      "target": "id=TenSP",
+      "targets": [
+        ["id=TenSP", "id"],
+        ["name=TenSP", "name"],
+        ["css=#TenSP", "css:finder"],
+        ["xpath=//input[@id='TenSP']", "xpath:attributes"],
+        ["xpath=//div[@id='them']/form/div/fieldset/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12717c55-d385-4f89-b6f5-a1b8a535a873",
+      "comment": "",
+      "command": "click",
+      "target": "id=MaSP",
+      "targets": [
+        ["id=MaSP", "id"],
+        ["name=MaSP", "name"],
+        ["css=#MaSP", "css:finder"],
+        ["xpath=//input[@id='MaSP']", "xpath:attributes"],
+        ["xpath=//div[@id='them']/form/div/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c7b3876-e179-444f-839b-fe91929827cf",
+      "comment": "",
+      "command": "type",
+      "target": "id=MaSP",
+      "targets": [
+        ["id=MaSP", "id"],
+        ["name=MaSP", "name"],
+        ["css=#MaSP", "css:finder"],
+        ["xpath=//input[@id='MaSP']", "xpath:attributes"],
+        ["xpath=//div[@id='them']/form/div/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "SP0501"
+    }, {
+      "id": "fed01179-2fc7-4225-baea-e01d4eeca747",
+      "comment": "",
+      "command": "click",
+      "target": "id=TenSP",
+      "targets": [
+        ["id=TenSP", "id"],
+        ["name=TenSP", "name"],
+        ["css=#TenSP", "css:finder"],
+        ["xpath=//input[@id='TenSP']", "xpath:attributes"],
+        ["xpath=//div[@id='them']/form/div/fieldset/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d726be63-cfd3-438f-9e24-8c1de35a13dd",
+      "comment": "",
+      "command": "type",
+      "target": "id=TenSP",
+      "targets": [
+        ["id=TenSP", "id"],
+        ["name=TenSP", "name"],
+        ["css=#TenSP", "css:finder"],
+        ["xpath=//input[@id='TenSP']", "xpath:attributes"],
+        ["xpath=//div[@id='them']/form/div/fieldset/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "WWGWGE"
+    }, {
+      "id": "0bd6a190-4e75-4a8a-a230-eee13a5092c6",
+      "comment": "",
+      "command": "click",
+      "target": "id=GiaTien",
+      "targets": [
+        ["id=GiaTien", "id"],
+        ["name=GiaTien", "name"],
+        ["css=#GiaTien", "css:finder"],
+        ["xpath=//input[@id='GiaTien']", "xpath:attributes"],
+        ["xpath=//div[@id='them']/form/div/fieldset/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bbf3267-1d74-4ac9-add2-fd1c84900f63",
+      "comment": "",
+      "command": "type",
+      "target": "id=GiaTien",
+      "targets": [
+        ["id=GiaTien", "id"],
+        ["name=GiaTien", "name"],
+        ["css=#GiaTien", "css:finder"],
+        ["xpath=//input[@id='GiaTien']", "xpath:attributes"],
+        ["xpath=//div[@id='them']/form/div/fieldset/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "d93e0e74-2b54-43a9-b5a7-ae2a76bbcecb",
+      "comment": "",
+      "command": "click",
+      "target": "id=Tags",
+      "targets": [
+        ["id=Tags", "id"],
+        ["name=Tags", "name"],
+        ["css=#Tags", "css:finder"],
+        ["xpath=//input[@id='Tags']", "xpath:attributes"],
+        ["xpath=//div[@id='them']/form/div/fieldset/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab403969-b0dd-4bf2-a14f-b2263df3e6cd",
+      "comment": "",
+      "command": "type",
+      "target": "id=Tags",
+      "targets": [
+        ["id=Tags", "id"],
+        ["name=Tags", "name"],
+        ["css=#Tags", "css:finder"],
+        ["xpath=//input[@id='Tags']", "xpath:attributes"],
+        ["xpath=//div[@id='them']/form/div/fieldset/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "ÙHJAF"
+    }, {
+      "id": "51883daa-ea1e-4814-9f85-e12df084b38c",
+      "comment": "",
+      "command": "click",
+      "target": "name=MoTa",
+      "targets": [
+        ["name=MoTa", "name"],
+        ["css=div:nth-child(2) > textarea", "css:finder"],
+        ["xpath=//textarea[@name='MoTa']", "xpath:attributes"],
+        ["xpath=//div[@id='them']/form/div/fieldset/div[9]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b3ddc2c-16fb-41ce-8684-9cc451dd64bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.editor-field:nth-child(10)",
+      "targets": [
+        ["css=.editor-field:nth-child(10)", "css:finder"],
+        ["xpath=//div[@id='them']/form/div/fieldset/div[8]", "xpath:idRelative"],
+        ["xpath=//div[8]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27ad66d1-87bf-4707-857e-e7579216fbc7",
+      "comment": "",
+      "command": "type",
+      "target": "id=Tags",
+      "targets": [
+        ["id=Tags", "id"],
+        ["name=Tags", "name"],
+        ["css=#Tags", "css:finder"],
+        ["xpath=//input[@id='Tags']", "xpath:attributes"],
+        ["xpath=//div[@id='them']/form/div/fieldset/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "FHFHW"
+    }, {
+      "id": "b2b76ce6-8d66-4cbd-80c4-28a1d97c20cd",
+      "comment": "",
+      "command": "click",
+      "target": "name=MoTa",
+      "targets": [
+        ["name=MoTa", "name"],
+        ["css=div:nth-child(2) > .valid", "css:finder"],
+        ["xpath=//textarea[@name='MoTa']", "xpath:attributes"],
+        ["xpath=//div[@id='them']/form/div/fieldset/div[9]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbba83ae-dc53-46ba-89cc-e3d5c7a76298",
+      "comment": "",
+      "command": "click",
+      "target": "name=upload",
+      "targets": [
+        ["name=upload", "name"],
+        ["css=.editor-label:nth-child(13) > input", "css:finder"],
+        ["xpath=//input[@name='upload']", "xpath:attributes"],
+        ["xpath=//div[@id='them']/form/div/fieldset/div[11]/input", "xpath:idRelative"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "679c8487-030a-42ce-aae0-0291e37cf44e",
+      "comment": "",
+      "command": "type",
+      "target": "name=upload",
+      "targets": [
+        ["name=upload", "name"],
+        ["css=.editor-label:nth-child(13) > input", "css:finder"],
+        ["xpath=//input[@name='upload']", "xpath:attributes"],
+        ["xpath=//div[@id='them']/form/div/fieldset/div[11]/input", "xpath:idRelative"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\z3460630648812_a63a2215d0879b048ccae81542402504.jpg"
+    }, {
+      "id": "fc374e59-8513-482d-88ba-83edf9559138",
+      "comment": "",
+      "command": "click",
+      "target": "css=p > .btn",
+      "targets": [
+        ["css=p > .btn", "css:finder"],
+        ["xpath=//input[@value='Add']", "xpath:attributes"],
+        ["xpath=//div[@id='them']/form/div/fieldset/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1b9b777-b6ea-46cd-8970-8ab7f2f61f1b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Xuống Ngay →",
+      "targets": [
+        ["linkText=Xuống Ngay →", "linkText"],
+        ["css=.col-2 > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Xuống Ngay →')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#chucnang')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Xuống Ngay →')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "aa7b432a-94e7-4251-a601-3fda49a7c168",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["45838216-b118-46c2-8237-d942e1e69467"]
+  }],
+  "urls": ["http://localhost:30084/Main/addsp"],
+  "plugins": []
+}

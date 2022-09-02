@@ -1,0 +1,137 @@
+﻿@{
+    ViewBag.Title = "ThongTinKhachHang";
+    Layout = "~/Views/Shared/MasterHome.cshtml";
+    var dshd = ViewBag.dshd as List<HoaDon>;
+}
+@using BanDoDienMay_Nhom11.Models;
+@model CTKhachHang
+<h2 class="title"> Thông Tin Khách Hàng</h2>
+<div class="container">
+  <div style="text-align:center">
+            <p>Mã Khách Hàng :  @Model.MaKH</p>
+            <p>Tên Khách Hàng:  @Model.TenKH</p>
+            <p>Số Điện Thoại :  @Model.SDT</p>
+            @if(@Model.Diachi != null)
+            {
+                <p>Địa Chỉ       :  @Model.Diachi</p>
+            }
+            else
+            {
+                <p>Địa Chỉ       :  Chưa Cập nhật</p>
+            }
+          @if(@Model.Email != null)
+                {
+                    <p>Email         :@Model.Email</p>
+                }
+                else
+                {
+                    <p>Email         :Chưa Cập nhật</p>
+                }
+             @if(@Model.Email != null)
+                {
+                    <p>Ngày Sinh     :@Model.NgaySinh</p>
+                }
+                else
+                {
+                     <p>Ngày Sinh     :Chưa Cập nhật</p>
+                }
+       @if(@Model.Email != null)
+                {
+                    <p>Giới Tính     :@Model.GioiTinh</p>
+                }
+                else
+                {
+                    <p>Giới Tính     :Chưa Cập nhật</p>
+                }
+       @if(@Model.Email != null)
+                {
+                    <p>CMND          :@Model.CMND</p>
+                }
+                else
+                {
+                     <p>CMND          :Chưa Cập nhật</p>
+                }
+            
+            
+           
+    </div>
+</div>
+<h2 class="title">Cập Nhật Thông Tin Khách Hàng</h2>
+
+<form  action="/main/ThongTinKhachHang" method="post" enctype="multipart/form-data">
+        <div class="container" style="text-align: center">
+            <div class="editor-label">
+                <p>Mã Khách Hàng</p>
+            </div>
+            <div class="editor-field">
+                <input type="text" name="makh" value="@Model.MaKH" />
+
+            </div>
+            <div class="editor-label">
+                <p>Địa Chỉ</p>
+            </div>
+            <div class="editor-field">
+                <input type="text" name="diachi"    value="@Model.Diachi"  />
+            </div>
+            <div class="editor-label">
+                <p>Email</p>
+            </div>
+            <div>
+                <input type="text" name="email" value="@Model.Email" />
+            </div>
+            <div class="editor-label">
+                <p>Ngày Sinh</p>
+            </div>
+            <div>
+                <input type="date" name="ngaysinh" value="@Model.NgaySinh"   />
+            </div>
+            <div class="editor-label">
+                <p>Giới Tính</p>
+            </div>
+            <div>
+                <input type="text" name="gt" value="@Model.GioiTinh" />
+            </div>
+            <div class="editor-label">
+                <p>CMND</p>
+            </div>
+             <div>
+                <input type="text" name="cmnd" value="@Model.CMND" />
+            </div>
+
+            <input type="submit" class="btn" value="Update" />
+        </div>
+    </form>
+
+<h2 class="title">Lịch Sử Mua Hàng</h2>
+<table class="table">
+    <tr>
+        <th>Mã Khách Hàng</th>
+        <th>Ngày Đặt</th>
+        <th>Đia Chỉ</th>
+        <th>Số Điện Thoại</th>
+        <td>Ngày Giao</td>
+        <td>Ngày Thanh Toán</td>
+        <td>Hoàn Thành</td>
+    </tr>
+  
+        @foreach (var item in dshd)
+        {  <tr>
+            <td>@item.MaKH</td>
+            <td>@item.NgayDat</td>
+            <td>@item.DiaChi</td>
+            <td>@item.SDT</td>
+            <td>@item.NgayGiao</td>
+            <td>@item.NgayThanhToan</td>
+            @if (@item.NgayThanhToan != null)
+            {
+                <td><input type="checkbox" checked disabled />Đã Giao</td> 
+            }
+            else
+            {
+                <td><input type="checkbox" disabled />Chưa Giao</td> 
+            }
+             </tr>
+        }
+   
+
+</table>

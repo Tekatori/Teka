@@ -1,0 +1,45 @@
+D:\Fall2016\jj\QuanLyPhongNet - Server\bin\QuanLyPhongNet.Common.dll.config
+D:\Fall2016\jj\QuanLyPhongNet - Server\bin\QuanLyPhongNet.Common.dll
+D:\Fall2016\jj\QuanLyPhongNet - Server\bin\QuanLyPhongNet.Common.pdb
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet.Common\obj\Debug\QuanLyPhongNet.Common.csprojResolveAssemblyReference.cache
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet.Common\obj\Debug\QuanLyPhongNet.Common.dll
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet.Common\obj\Debug\QuanLyPhongNet.Common.pdb
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\bin\QuanLyPhongNet.Common.dll.config
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\bin\QuanLyPhongNet.Common.dll
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\bin\QuanLyPhongNet.Common.pdb
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet.Common\obj\Debug\QuanLyPhongNet.Common.dll
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet.Common\obj\Debug\QuanLyPhongNet.Common.pdb
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\bin\QuanLyPhongNet.Common.dll.config
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\bin\QuanLyPhongNet.Common.dll
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\bin\QuanLyPhongNet.Common.pdb
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet.Common\obj\Debug\QuanLyPhongNet.Common.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet.Common\obj\Debug\QuanLyPhongNet.Common.dll
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet.Common\obj\Debug\QuanLyPhongNet.Common.pdb
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\bin\QuanLyPhongNet.Common.dll.config
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\bin\QuanLyPhongNet.Common.dll
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\bin\QuanLyPhongNet.Common.pdb
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.Common\obj\Debug\QuanLyPhongNet.Common.csproj.AssemblyReference.cache
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.Common\obj\Debug\QuanLyPhongNet.Common.csproj.CoreCompileInputs.cache
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.Common\obj\Debug\QuanLyPhongNet.Common.dll
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.Common\obj\Debug\QuanLyPhongNet.Common.pdb
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\bin\QuanLyPhongNet.Common.dll.config
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\bin\QuanLyPhongNet.Common.dll
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\bin\QuanLyPhongNet.Common.pdb
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.Common\obj\Debug\QuanLyPhongNet.Common.csproj.AssemblyReference.cache
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.Common\obj\Debug\QuanLyPhongNet.Common.csproj.CoreCompileInputs.cache
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.Common\obj\Debug\QuanLyPhongNet.Common.dll
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.Common\obj\Debug\QuanLyPhongNet.Common.pdb
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\bin\QuanLyPhongNet.Common.dll.config
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\bin\QuanLyPhongNet.Common.dll
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\bin\QuanLyPhongNet.Common.pdb
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.Common\obj\Debug\QuanLyPhongNet.Common.csproj.AssemblyReference.cache
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.Common\obj\Debug\QuanLyPhongNet.Common.csproj.CoreCompileInputs.cache
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.Common\obj\Debug\QuanLyPhongNet.Common.dll
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet.Common\obj\Debug\QuanLyPhongNet.Common.pdb
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\bin\QuanLyPhongNet.Common.dll.config
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\bin\QuanLyPhongNet.Common.dll
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\bin\QuanLyPhongNet.Common.pdb
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet.Common\obj\Debug\QuanLyPhongNet.Common.csproj.AssemblyReference.cache
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet.Common\obj\Debug\QuanLyPhongNet.Common.csproj.CoreCompileInputs.cache
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet.Common\obj\Debug\QuanLyPhongNet.Common.dll
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet.Common\obj\Debug\QuanLyPhongNet.Common.pdb

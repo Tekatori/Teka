@@ -1,0 +1,184 @@
+D:\Fall2016\jj\QuanLyPhongNet - Server\bin\QuanLyPhongNet.exe.config
+D:\Fall2016\jj\QuanLyPhongNet - Server\bin\QuanLyPhongNet.exe
+D:\Fall2016\jj\QuanLyPhongNet - Server\bin\QuanLyPhongNet.pdb
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csprojResolveAssemblyReference.cache
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.CategoryManageGUI.resources
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.DatabaseConfigurationGUI.resources
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.HomeGUI.resources
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.LoadingGUI.resources
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.LoginGUI.resources
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.OptionGUI.resources
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.Properties.Resources.resources
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.ReportGUI.resources
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.GenerateResource.Cache
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.exe
+D:\Fall2016\jj\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.pdb
+D:\Fall2016\KhoBauSE\jj\QuanLyPhongNet - Server\bin\QuanLyPhongNet.exe.config
+D:\Fall2016\KhoBauSE\jj\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.exe
+D:\Fall2016\KhoBauSE\jj\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.pdb
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\bin\QuanLyPhongNet.exe.config
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.exe
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.pdb
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csprojResolveAssemblyReference.cache
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.AddMemberGUI.resources
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.AddTimeMemberGUI.resources
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.CategoryManageGUI.resources
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.DatabaseConfigurationGUI.resources
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.HomeGUI.resources
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.LoadingGUI.resources
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.LoginGUI.resources
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.OptionGUI.resources
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.OrderServiceGUI.resources
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.Properties.Resources.resources
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.ReportGUI.resources
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.GenerateResource.Cache
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\bin\QuanLyPhongNet.exe
+C:\Users\Seraphim\Desktop\do an se\QuanLyPhongNet - Server\bin\QuanLyPhongNet.pdb
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\bin\QuanLyPhongNet.exe.config
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.exe
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.pdb
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\bin\QuanLyPhongNet.exe
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\bin\QuanLyPhongNet.pdb
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.AddMemberGUI.resources
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.AddTimeMemberGUI.resources
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.CategoryManageGUI.resources
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.DatabaseConfigurationGUI.resources
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.HomeGUI.resources
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.LoadingGUI.resources
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.LoginGUI.resources
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.OptionGUI.resources
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.OrderServiceGUI.resources
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.Properties.Resources.resources
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.ReportGUI.resources
+C:\Users\HP\Desktop\Do an cong nghe pham mem\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.GenerateResource.Cache
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\bin\QuanLyPhongNet.exe.config
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\bin\QuanLyPhongNet.exe
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\bin\QuanLyPhongNet.pdb
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.AssemblyReference.cache
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.SuggestedBindingRedirects.cache
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.AddMemberGUI.resources
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.AddTimeMemberGUI.resources
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.CategoryManageGUI.resources
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.DatabaseConfigurationGUI.resources
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.HomeGUI.resources
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.LoadingGUI.resources
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.LoginGUI.resources
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.OptionGUI.resources
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.OrderServiceGUI.resources
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.Properties.Resources.resources
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.ReportGUI.resources
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.GenerateResource.cache
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.CoreCompileInputs.cache
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.CopyComplete
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.exe
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.pdb
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\bin\QuanLyPhongNet.exe.config
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\bin\QuanLyPhongNet.exe
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\bin\QuanLyPhongNet.pdb
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.AssemblyReference.cache
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.SuggestedBindingRedirects.cache
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.AddMemberGUI.resources
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.AddTimeMemberGUI.resources
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.CategoryManageGUI.resources
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.DatabaseConfigurationGUI.resources
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.HomeGUI.resources
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.LoadingGUI.resources
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.LoginGUI.resources
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.OptionGUI.resources
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.OrderServiceGUI.resources
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.Properties.Resources.resources
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.ReportGUI.resources
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.GenerateResource.cache
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.CoreCompileInputs.cache
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.CopyComplete
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.exe
+C:\Users\jorda\Contacts\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.pdb
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\bin\QuanLyPhongNet.exe.config
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\bin\QuanLyPhongNet.exe
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\bin\QuanLyPhongNet.pdb
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.AssemblyReference.cache
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.SuggestedBindingRedirects.cache
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.AddMemberGUI.resources
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.AddTimeMemberGUI.resources
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.CategoryManageGUI.resources
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.DatabaseConfigurationGUI.resources
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.HomeGUI.resources
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.LoadingGUI.resources
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.LoginGUI.resources
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.OptionGUI.resources
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.OrderServiceGUI.resources
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.Properties.Resources.resources
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.ReportGUI.resources
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.GenerateResource.cache
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.CoreCompileInputs.cache
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.CopyComplete
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.exe
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.pdb
+C:\Users\DanhTran\Desktop\QuanLyPhongNet\QuanLyPhongNet\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.FormDuDoan.resources
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\bin\QuanLyPhongNet.exe.config
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\bin\QuanLyPhongNet.exe
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\bin\QuanLyPhongNet.pdb
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.AssemblyReference.cache
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.SuggestedBindingRedirects.cache
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.AddMemberGUI.resources
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.AddTimeMemberGUI.resources
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.CategoryManageGUI.resources
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.DatabaseConfigurationGUI.resources
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.FormDuDoan.resources
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.HomeGUI.resources
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.LoadingGUI.resources
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.LoginGUI.resources
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.OptionGUI.resources
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.OrderServiceGUI.resources
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.Properties.Resources.resources
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.ReportGUI.resources
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.GenerateResource.cache
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.CoreCompileInputs.cache
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.CopyComplete
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.exe
+C:\Users\DanhTran\Desktop\DA_CNPM_NHOM_01\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.pdb
+C:\Users\DanhTran\Desktop\DA_PTPMUDTM_NHOM_04\SOURCE\QuanLyPhongNet - Server\bin\QuanLyPhongNet.exe.config
+C:\Users\DanhTran\Desktop\DA_PTPMUDTM_NHOM_04\SOURCE\QuanLyPhongNet - Server\bin\QuanLyPhongNet.exe
+C:\Users\DanhTran\Desktop\DA_PTPMUDTM_NHOM_04\SOURCE\QuanLyPhongNet - Server\bin\QuanLyPhongNet.pdb
+C:\Users\DanhTran\Desktop\DA_PTPMUDTM_NHOM_04\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.AssemblyReference.cache
+C:\Users\DanhTran\Desktop\DA_PTPMUDTM_NHOM_04\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.SuggestedBindingRedirects.cache
+C:\Users\DanhTran\Desktop\DA_PTPMUDTM_NHOM_04\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.AddMemberGUI.resources
+C:\Users\DanhTran\Desktop\DA_PTPMUDTM_NHOM_04\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.AddTimeMemberGUI.resources
+C:\Users\DanhTran\Desktop\DA_PTPMUDTM_NHOM_04\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.CategoryManageGUI.resources
+C:\Users\DanhTran\Desktop\DA_PTPMUDTM_NHOM_04\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.DatabaseConfigurationGUI.resources
+C:\Users\DanhTran\Desktop\DA_PTPMUDTM_NHOM_04\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.FormDuDoan.resources
+C:\Users\DanhTran\Desktop\DA_PTPMUDTM_NHOM_04\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.HomeGUI.resources
+C:\Users\DanhTran\Desktop\DA_PTPMUDTM_NHOM_04\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.LoadingGUI.resources
+C:\Users\DanhTran\Desktop\DA_PTPMUDTM_NHOM_04\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.LoginGUI.resources
+C:\Users\DanhTran\Desktop\DA_PTPMUDTM_NHOM_04\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.OptionGUI.resources
+C:\Users\DanhTran\Desktop\DA_PTPMUDTM_NHOM_04\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.OrderServiceGUI.resources
+C:\Users\DanhTran\Desktop\DA_PTPMUDTM_NHOM_04\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.Properties.Resources.resources
+C:\Users\DanhTran\Desktop\DA_PTPMUDTM_NHOM_04\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.ReportGUI.resources
+C:\Users\DanhTran\Desktop\DA_PTPMUDTM_NHOM_04\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.GenerateResource.cache
+C:\Users\DanhTran\Desktop\DA_PTPMUDTM_NHOM_04\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.CoreCompileInputs.cache
+C:\Users\DanhTran\Desktop\DA_PTPMUDTM_NHOM_04\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.CopyComplete
+C:\Users\DanhTran\Desktop\DA_PTPMUDTM_NHOM_04\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.exe
+C:\Users\DanhTran\Desktop\DA_PTPMUDTM_NHOM_04\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.pdb
+C:\Users\DanhTran\Desktop\SOURCE\QuanLyPhongNet - Server\bin\QuanLyPhongNet.exe.config
+C:\Users\DanhTran\Desktop\SOURCE\QuanLyPhongNet - Server\bin\QuanLyPhongNet.exe
+C:\Users\DanhTran\Desktop\SOURCE\QuanLyPhongNet - Server\bin\QuanLyPhongNet.pdb
+C:\Users\DanhTran\Desktop\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.AssemblyReference.cache
+C:\Users\DanhTran\Desktop\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.SuggestedBindingRedirects.cache
+C:\Users\DanhTran\Desktop\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.AddMemberGUI.resources
+C:\Users\DanhTran\Desktop\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.AddTimeMemberGUI.resources
+C:\Users\DanhTran\Desktop\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.CategoryManageGUI.resources
+C:\Users\DanhTran\Desktop\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.DatabaseConfigurationGUI.resources
+C:\Users\DanhTran\Desktop\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.FormDuDoan.resources
+C:\Users\DanhTran\Desktop\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.HomeGUI.resources
+C:\Users\DanhTran\Desktop\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.LoadingGUI.resources
+C:\Users\DanhTran\Desktop\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.LoginGUI.resources
+C:\Users\DanhTran\Desktop\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.OptionGUI.resources
+C:\Users\DanhTran\Desktop\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.OrderServiceGUI.resources
+C:\Users\DanhTran\Desktop\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.Properties.Resources.resources
+C:\Users\DanhTran\Desktop\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.ReportGUI.resources
+C:\Users\DanhTran\Desktop\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.GenerateResource.cache
+C:\Users\DanhTran\Desktop\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.CoreCompileInputs.cache
+C:\Users\DanhTran\Desktop\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.csproj.CopyComplete
+C:\Users\DanhTran\Desktop\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.exe
+C:\Users\DanhTran\Desktop\SOURCE\QuanLyPhongNet - Server\QuanLyPhongNet\obj\Debug\QuanLyPhongNet.pdb

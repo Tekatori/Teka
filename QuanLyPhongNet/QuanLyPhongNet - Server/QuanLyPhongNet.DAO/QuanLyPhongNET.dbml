@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QuanLyPhongNet" Class="QuanLyPhongNETDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-9R357LN;Initial Catalog=QuanLyPhongNet;Integrated Security=True" SettingsObjectName="QuanLyPhongNet.DAO.Properties.Settings" SettingsPropertyName="QuanLyPhongNetConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Bill" Member="Bills">
+    <Type Name="Bill">
+      <Column Name="BillID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ClientName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="FoundedDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="StartTime" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="PriceTotal" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="Client_Bill" Member="Client" ThisKey="ClientName" OtherKey="ClientName" Type="Client" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Category" Member="Categories">
+    <Type Name="Category">
+      <Column Name="CategoryName" Type="System.String" DbType="NVarChar(60) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Category_Drink" Member="Drinks" ThisKey="CategoryName" OtherKey="CategoryName" Type="Drink" />
+      <Association Name="Category_Food" Member="Foods" ThisKey="CategoryName" OtherKey="CategoryName" Type="Food" />
+      <Association Name="Category_TheCard" Member="TheCards" ThisKey="CategoryName" OtherKey="CategoryName" Type="TheCard" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Client" Member="Clients">
+    <Type Name="Client">
+      <Column Name="ClientName" Type="System.String" DbType="VarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="GroupClientName" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="StatusClient" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="Client_Bill" Member="Bills" ThisKey="ClientName" OtherKey="ClientName" Type="Bill" />
+      <Association Name="Client_LoginMember" Member="LoginMembers" ThisKey="ClientName" OtherKey="ClientName" Type="LoginMember" />
+      <Association Name="Client_OrderCard" Member="OrderCards" ThisKey="ClientName" OtherKey="ClientName" Type="OrderCard" />
+      <Association Name="Client_OrderDrink" Member="OrderDrinks" ThisKey="ClientName" OtherKey="ClientName" Type="OrderDrink" />
+      <Association Name="Client_OrderFood" Member="OrderFoods" ThisKey="ClientName" OtherKey="ClientName" Type="OrderFood" />
+      <Association Name="Client_SystemDiary" Member="SystemDiaries" ThisKey="ClientName" OtherKey="ClientName" Type="SystemDiary" />
+      <Association Name="Client_TransacDiary" Member="TransacDiaries" ThisKey="ClientName" OtherKey="ClientName" Type="TransacDiary" />
+      <Association Name="GroupClient_Client" Member="GroupClient" ThisKey="GroupClientName" OtherKey="GroupName" Type="GroupClient" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Drink" Member="Drinks">
+    <Type Name="Drink">
+      <Column Name="DrinkID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DrinkName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CategoryName" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="PriceUnit" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="UnitLot" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="InventoryNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Drink_OrderDrink" Member="OrderDrinks" ThisKey="DrinkID" OtherKey="DrinkID" Type="OrderDrink" />
+      <Association Name="Category_Drink" Member="Category" ThisKey="CategoryName" OtherKey="CategoryName" Type="Category" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Food" Member="Foods">
+    <Type Name="Food">
+      <Column Name="FoodID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FoodName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CategoryName" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="PriceUnit" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="UnitLot" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="InventoryNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Food_OrderFood" Member="OrderFoods" ThisKey="FoodID" OtherKey="FoodID" Type="OrderFood" />
+      <Association Name="Category_Food" Member="Category" ThisKey="CategoryName" OtherKey="CategoryName" Type="Category" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GroupClient" Member="GroupClients">
+    <Type Name="GroupClient">
+      <Column Name="GroupName" Type="System.String" DbType="NVarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Discription" Type="System.String" DbType="NVarChar(120)" CanBeNull="true" />
+      <Association Name="GroupClient_Client" Member="Clients" ThisKey="GroupName" OtherKey="GroupClientName" Type="Client" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GroupUser" Member="GroupUsers">
+    <Type Name="GroupUser">
+      <Column Name="GroupName" Type="System.String" DbType="NVarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TypeName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Association Name="GroupUser_Member" Member="Members" ThisKey="GroupName" OtherKey="GroupUser" Type="Member" />
+      <Association Name="GroupUser_TheUser" Member="TheUsers" ThisKey="GroupName" OtherKey="GroupUser" Type="TheUser" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LoginMember" Member="LoginMembers">
+    <Type Name="LoginMember">
+      <Column Name="memberID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ClientName" Type="System.String" DbType="VarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="StartTime" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="UseTime" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="LeftTime" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Association Name="Client_LoginMember" Member="Client" ThisKey="ClientName" OtherKey="ClientName" Type="Client" IsForeignKey="true" />
+      <Association Name="Member_LoginMember" Member="Member" ThisKey="memberID" OtherKey="MemberID" Type="Member" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Member" Member="Members">
+    <Type Name="Member">
+      <Column Name="MemberID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AccountName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="GroupUser" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="CurrentTime" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="CurrentMoney" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="StatusAccount" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Association Name="Member_LoginMember" Member="LoginMembers" ThisKey="MemberID" OtherKey="memberID" Type="LoginMember" />
+      <Association Name="Member_MemberInformation" Member="MemberInformation" ThisKey="MemberID" OtherKey="memberID" Type="MemberInformation" Cardinality="One" />
+      <Association Name="GroupUser_Member" Member="GroupUser1" ThisKey="GroupUser" OtherKey="GroupName" Type="GroupUser" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MemberInformation" Member="MemberInformations">
+    <Type Name="MemberInformation">
+      <Column Name="memberID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MemberName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="FoundedDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="PhoneNumber" Type="System.String" DbType="VarChar(11)" CanBeNull="true" />
+      <Column Name="MemberAddress" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Association Name="Member_MemberInformation" Member="Member" ThisKey="memberID" OtherKey="MemberID" Type="Member" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OrderCard" Member="OrderCards">
+    <Type Name="OrderCard">
+      <Column Name="ClientName" Type="System.String" DbType="VarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CardID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PriceTotal" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="Client_OrderCard" Member="Client" ThisKey="ClientName" OtherKey="ClientName" Type="Client" IsForeignKey="true" />
+      <Association Name="TheCard_OrderCard" Member="TheCard" ThisKey="CardID" OtherKey="CardID" Type="TheCard" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OrderDrink" Member="OrderDrinks">
+    <Type Name="OrderDrink">
+      <Column Name="ClientName" Type="System.String" DbType="VarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DrinkID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PriceTotal" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="Client_OrderDrink" Member="Client" ThisKey="ClientName" OtherKey="ClientName" Type="Client" IsForeignKey="true" />
+      <Association Name="Drink_OrderDrink" Member="Drink" ThisKey="DrinkID" OtherKey="DrinkID" Type="Drink" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OrderFood" Member="OrderFoods">
+    <Type Name="OrderFood">
+      <Column Name="ClientName" Type="System.String" DbType="VarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FoodID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PriceTotal" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="Client_OrderFood" Member="Client" ThisKey="ClientName" OtherKey="ClientName" Type="Client" IsForeignKey="true" />
+      <Association Name="Food_OrderFood" Member="Food" ThisKey="FoodID" OtherKey="FoodID" Type="Food" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SystemDiary" Member="SystemDiaries">
+    <Type Name="SystemDiary">
+      <Column Name="sysID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ClientName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="TransacDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="AddTime" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="AddMoney" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" DbType="NVarChar(120)" CanBeNull="true" />
+      <Association Name="Client_SystemDiary" Member="Client" ThisKey="ClientName" OtherKey="ClientName" Type="Client" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TheCard" Member="TheCards">
+    <Type Name="TheCard">
+      <Column Name="CardID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CardName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CategoryName" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="PriceUnit" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="UnitLot" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="InventoryNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TheCard_OrderCard" Member="OrderCards" ThisKey="CardID" OtherKey="CardID" Type="OrderCard" />
+      <Association Name="Category_TheCard" Member="Category" ThisKey="CategoryName" OtherKey="CategoryName" Type="Category" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TheUser" Member="TheUsers">
+    <Type Name="TheUser">
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(60) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Type" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="GroupUser" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="PhoneNumber" Type="System.String" DbType="VarChar(11)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Association Name="GroupUser_TheUser" Member="GroupUser1" ThisKey="GroupUser" OtherKey="GroupName" Type="GroupUser" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TransacDiary" Member="TransacDiaries">
+    <Type Name="TransacDiary">
+      <Column Name="TransacID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ClientName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="TransacTime" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="StartTime" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="UseTime" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="PriceUnit" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="TotalMoney" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="Client_TransacDiary" Member="Client" ThisKey="ClientName" OtherKey="ClientName" Type="Client" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,239 @@
+﻿@{
+    ViewBag.Title = "ThongKe";
+    int stt = 0;
+    int stt2 = 0;
+    int stt3 = 0;
+}
+@using BanDoDienMay_Nhom11.Models;
+@model List<HoaDon>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>admin</title>
+    <link href="~/Content/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/StyleSheet1.css" rel="stylesheet" />
+    
+</head>
+<body>
+   <div class="hd">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="~/Content/img/logo.png" width="300" />
+                </div>
+                <nav>
+                    <ul>
+                        <li><a>@Html.ActionLink("Trang Chủ", "addsp")</a></li>
+                        <li><a href="/Main/DuyetDonHang"> Duyệt Sản phẩm</a></li>
+                        <li><a href="/Main/ThongKe"> Thống Kê</a></li>
+                        <li><a>Admin</a></li>
+                        @if(Session["adm"] != null)
+                        {
+                            <li><a>@Html.ActionLink("Thoát", "logout")</a></li>
+                        }
+                    </ul>
+                </nav>
+                <img src="~/Content/img/cart.png" width="30" height="30" />
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Xin Chào<br />
+                        Admin!</h1><br />
+                    <p>Đây là nơi Thống kê Đơn Hàng</p>
+                    <a href="#chucnang" class="btn">Xuống Ngay &#8594</a>
+                </div>
+                <div class="col-2.5">
+                    <img src="~/Content/img/admin.png" width="300" height="300" style="filter: sepia(70%);" />
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+   <div id="chucnang">
+           <form action="/Main/XLDuyet" method="post">
+                      <h2 class="title">Tất Cả Đơn Hàng</h2>
+           <table class="table" style="text-align:center">
+                <tr style="text-align:center">
+                    <th>STT</th>
+                    <th>Mã Khách Hàng</th>
+                    <th>Đơn Hàng</th>
+                    <th>Thanh Toán</th>
+                    <th>Thành Tiền</th>
+                    
+                </tr>
+             @foreach (var item in Model) {
+                 stt++;  
+             <tr style="text-align:center">
+                <td>@stt </td> 
+                 <td>@item.MaKH</td>
+                 <td>
+                     <div class="navbar" style="padding:0px;">
+                         <div class="dropdown" style="padding:0px">
+                             <a href="#" id="menudrop"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><u style="text-align:center">Chi Tiêt</u> </a>
+                             <div class="dropdown-menu" aria-labelledby="menudrop" style="padding:0px">
+                                 @Html.Action("HienTenSP", "Main", new { mahd = @item.MaHD })
+                             </div>
+                         </div>
+                     </div>
+                 </td>
+                 <td>@if (item.NgayThanhToan == null)
+                     {
+                     <input type="checkbox" name="ck1" disabled /> 
+                     }
+                     else
+                     {
+                     <input type="checkbox" name="ck1" checked disabled /> 
+                     }</td>
+                 <td>@Html.Action("ThanhTien","Main",new {mahd=@item.MaHD})</td>
+
+             </tr>
+                 
+             }
+                <tr>
+                    <th>Tổng</th>
+                    <th></th>
+                    <th>@stt Đơn Hàng</th>
+                    <th></th>
+                    <th>@Html.Action("XuLyThongKe","Main")</th>
+                </tr>
+            
+            </table>
+                      <h2 class="title">Đơn Hàng Đã Thanh Toán</h2>    
+            <table class="table" style="text-align:center">
+                <tr>
+                    <th>STT</th>
+                    <th>Mã Khách Hàng</th>
+                    <th>Đơn Hàng</th>
+                    <th>Ngày Thanh Toán</th>
+                    <th>Thành Tiền</th>
+                    
+                </tr>
+             @foreach (var item in Model) {
+                 if(item.NgayThanhToan != null)
+                 {
+                 stt2++;  
+             <tr>
+                <td>@stt2 </td> 
+                 <td>@item.MaKH</td>
+                 <td>
+                     <div class="navbar">
+                         <div class="dropdown" style="padding:0px">
+                             <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><u>Chi Tiêt</u> </a>
+                             <div class="dropdown-menu" aria-labelledby="menudrop" style="padding:0px;text-align:center">
+                                 @Html.Action("HienTenSP", "Main", new { mahd = @item.MaHD })
+                             </div>
+                         </div>
+                     </div>
+                 </td>
+                 <td>@item.NgayThanhToan</td>
+                 <td>@Html.Action("ThanhTien","Main",new {mahd=@item.MaHD})</td>
+
+             </tr>
+                 }
+             }
+                <tr>
+                    <th>Tổng</th>
+                    <th></th>
+                    <th>@stt2 Đơn Hàng</th>
+                    <th></th>
+                    <th>@Html.Action("XuLyThongKeTT","Main")</th>
+                </tr>
+            
+            </table>
+            <h2 class="title">Đơn Hàng Chưa Thanh Toán</h2>    
+            <table class="table" style="text-align:center">
+                <tr>
+                    <th>STT</th>
+                    <th>Mã Khách Hàng</th>
+                    <th>Đơn Hàng</th>
+                    <th>Ngày Đặt</th>
+                    <th>Ngày Giao</th>
+                    <th>Thành Tiền</th>
+                    
+                </tr>
+             @foreach (var item in Model) {
+                 if(item.NgayThanhToan == null)
+                 {
+                 stt3++;  
+             <tr>
+                <td>@stt3 </td> 
+                 <td>@item.MaKH</td>
+                 <td>
+                     <div class="navbar">
+                         <div class="dropdown" style="padding:0px">
+                             <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><u>Chi Tiêt</u> </a>
+                             <div class="dropdown-menu" aria-labelledby="menudrop" style="padding:0px;text-align:center">
+                                 @Html.Action("HienTenSP", "Main", new { mahd = @item.MaHD })
+                             </div>
+                         </div>
+                     </div>
+                 </td>
+                 <td>@item.NgayDat</td>
+                 <td>@item.NgayGiao</td>
+                 <td>@Html.Action("ThanhTien","Main",new {mahd=@item.MaHD})</td>
+
+             </tr>
+                 }
+             }
+                <tr>
+                    <th>Tổng</th>
+                    <th></th>
+                    <th>@stt3 Đơn Hàng</th>
+                    <th></th>
+                    <td></td>
+                    <th>@Html.Action("XuLyThongKeChuaTT","Main")</th>
+                </tr>
+            
+            </table>
+        </form>
+   </div>
+
+   @*  <div style="text-align:center">
+        <a href="/Main/Home" class="btn">Trang Chủ &#8594</a>
+    </div>*@
+    <div class="ft">
+        <div class="container2">
+            <div class="row">
+                <div class="ft-col-1">
+                    <h3>Thank you for visiting our website.</h3>
+                    <p>Sản phẩm website Bán Truyện Online</p>
+                </div>
+                <div class="ft-col-2">
+
+                    <img src="~/Content/img/logo.png" />
+                </div>
+                <div class="ft-col-3">
+                    <h3>Thành Viên</h3>
+                    <ul>
+                        <li>Trần Hữu Danh</li>
+                        <li>Trần Thanh Kha</li>
+                        <li>Trương Chí Hoàng</li>
+                        <li>Nguyễn Thị Thuỳ Dương</li>
+                        <li>Đỗ Lê Vi</li>
+                    </ul>
+                </div>
+                <div class="ft-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr />
+            <p class="copy">Copyright 2022</p>
+        </div>
+    </div>
+
+ 
+   
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+    <script src="~/Content/bootstrap/js/jquery-3.3.1.min.js"></script>
+    <script src="~/Content/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+ </html>

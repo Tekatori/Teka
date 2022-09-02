@@ -1,0 +1,59 @@
+﻿@*@model IEnumerable<BanDoDienMay_Nhom11.Models.SanPham>*@
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/MasterHome.cshtml";
+}
+@using BanDoDienMay_Nhom11.Models;
+@model List<SanPham>
+<div class="container">
+    
+        <div class="row">
+            <div class="col-8">
+                <form action="/Main/HTSP" method="post" >
+                <div class="navbar">
+                    <div class="dropdown">
+                        <button id="menudrop" class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Thể Loại Truyện</button>
+                        <div class="dropdown-menu" aria-labelledby="menudrop">
+                            <a class="dropdown-item" href="/Main/HTSPML">Action</a>
+                            <a class="dropdown-item" href="/Main/HTSPNoi">Adventure</a>
+                            <a class="dropdown-item" href="/Main/HTSPQDH">Mystery</a>
+                            <a class="dropdown-item" href="/Main/HTSPSQA">Trinh thám</a>
+                            <a class="dropdown-item" href="/Main/HTSPMG">Xuyên không</a>
+                        </div>
+                    </div>
+                </div>
+                    </form>
+            </div>
+            <div class="col-4">
+      
+                <form action="/Main/XuLyTimKiem" method="post">
+                <div class="input-group">
+                    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                        aria-describedby="search-addon" style="height: 40px; margin-top: 32px" name="txtTuKhoa" />
+                   <a href="#xuong"><input type="submit" class="btn btn-outline-primary" value="search"></a> 
+                </div>
+                    </form>
+            </div>
+        </div>
+        </div>
+
+<div class="product" >
+    <h2 class="title">Sản Phẩm</h2>
+    <div class="row"style="margin-left: 200px;">
+        @foreach (var item in Model)
+        {
+        <div class="col-4">
+            <a href="/Main/CTSP/@item.MaSP"><img src="~/Content/HinhAnh_SP/HinhAnh_SP/@Html.DisplayFor(modelItem => item.ImageSP)" /></a><br />
+            <p>@Html.DisplayFor(modelItem => item.TenSP) @Html.DisplayFor(modelItem => item.MaSP)</p>
+            <p>Thể loại: @Html.DisplayFor(modelItem => item.Tags)</p>
+            <p>Giá Tiền: @string.Format("{0:#,### VNĐ}", item.GiaTien)</p>
+            <a href="/Main/ChonMua/@item.MaSP" class="btn">Mua</a>
+        </div>
+            
+}
+    </div>
+
+    <h2 class="title">Hết</h2>
+   
+</div>
+ 

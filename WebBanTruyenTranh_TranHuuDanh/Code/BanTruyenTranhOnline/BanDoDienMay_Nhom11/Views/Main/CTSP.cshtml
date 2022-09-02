@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "CTSP";
+    Layout = "~/Views/Shared/MasterHome.cshtml";
+}
+@using BanDoDienMay_Nhom11.Models;
+@model ChiTietMatHang
+
+<h2 class="title">Chi Tiết Mặt Hàng</h2>
+<div class="container" style="">
+    <div class="row">
+        <div class="col-3.5">
+            <img src="~/Content/HinhAnh_SP/HinhAnh_SP/@Model.CTImageSP" width="420" height="280" />
+        </div>
+        <div class="col-6.5">
+            <p>Mã Sản Phẩm : @Model.MaSP</p>
+            <p>Tên Sản Phẩm : @Model.TenSP</p>
+            <p>Loại Sản Phẩm : @Model.Tags</p>
+            <p>Giá Tiền: @string.Format("{0:#,### VNĐ}", @Model.DonGia)</p>
+            <p>Đơn Vị :@Model.DVT</p>
+            <a href="/Main/ChonMua/@Model.MaSP" class="btn">Mua</a>
+            <a  class="btn" onclick="Back()">Quay Lại</a>
+        </div>
+    </div><br /><br />
+    <div style="text-align:center">
+        <h2>Mô tả Sản Phẩm</h2>
+        <p>@Model.SanPham.MoTa</p>
+    </div>
+</div>
+  <script>
+      function Back(){
+          history.back();
+      }
+  </script>

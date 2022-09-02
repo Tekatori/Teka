@@ -1,0 +1,88 @@
+{
+  "id": "d4d5cf7b-3e77-46ec-9fcb-1f9740c736c2",
+  "version": "2.0",
+  "name": "TestXoa",
+  "url": "http://localhost:30084/Main/addsp",
+  "tests": [{
+    "id": "5a57e401-1520-44c2-a1f4-0f0ec4ce48e8",
+    "name": "TestXoa",
+    "commands": [{
+      "id": "4f4e22ac-3a84-41ea-af20-788614a85a5f",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:30084/Main/addsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98af4a8d-6131-4f5c-8eeb-5c63ba88a4c4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3df25545-7cc8-4bdd-ad50-8022a8d38773",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Xoá",
+      "targets": [
+        ["linkText=Xoá", "linkText"],
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Xoá')]", "xpath:link"],
+        ["xpath=//div[@id='chucnang']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#xoa')]", "xpath:href"],
+        ["xpath=//div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Xoá')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "313d423d-a845-4e57-961d-e4e461c2a9e3",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtmasp",
+      "targets": [
+        ["name=txtmasp", "name"],
+        ["css=#xoa .editor-field > input", "css:finder"],
+        ["xpath=//input[@name='txtmasp']", "xpath:attributes"],
+        ["xpath=//form[@id='xoa']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf818f53-08dd-44a5-a025-a74af145734c",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtmasp",
+      "targets": [
+        ["name=txtmasp", "name"],
+        ["css=#xoa .editor-field > input", "css:finder"],
+        ["xpath=//input[@name='txtmasp']", "xpath:attributes"],
+        ["xpath=//form[@id='xoa']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "SP0501"
+    }, {
+      "id": "ce3df724-8e0d-4f0e-a84c-6c9ddcbb2731",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container > .btn:nth-child(3)",
+      "targets": [
+        ["css=.container > .btn:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Delete']", "xpath:attributes"],
+        ["xpath=//form[@id='xoa']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ae8bca1e-21c6-46e6-8bb5-bc5a305bdbcf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5a57e401-1520-44c2-a1f4-0f0ec4ce48e8"]
+  }],
+  "urls": ["http://localhost:30084/Main/addsp"],
+  "plugins": []
+}

@@ -1,0 +1,20 @@
+﻿@using BanDoDienMay_Nhom11.Models;
+@model List<CTHD>
+
+<table class="table">
+    <tr>
+        <th>Mã Sản Phẩm</th>
+        <th>Tên Sản Phẩm</th>
+        <th>số Lượng</th>
+        <th>Đơn Giá</th>
+    </tr>
+    @foreach(var  ct in Model)
+    {
+    <tr>
+        <th>@ct.MaSP</th>
+        <th>@ct.SanPham.TenSP</th>  
+        <th>@ct.SoLuong</th>
+        <th>@ct.SanPham.GiaTien</th>
+    </tr>
+    }
+</table>
